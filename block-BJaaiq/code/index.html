@@ -9,91 +9,15 @@
 </head>
 <body>
   <h1>Notice Board</h1>
-  <section class="notice-items-container flex">
-    <article class="notice-card">
-      <p>
-        category
-      </p>
-      <h3>
-        Title of the Notice
-      </h3>
-    </article>
-    <article class="notice-card">
-      <p>
-        category
-      </p>
-      <h3>
-        Title of the Notice
-      </h3>
-    </article>
-    <article class="notice-card">
-      <p>
-        category
-      </p>
-      <h3>
-        Title of the Notice
-      </h3>
-    </article>
-    <article class="notice-card">
-      <p>
-        category
-      </p>
-      <h3>
-        Title of the Notice
-      </h3>
-    </article>
-    <article class="notice-card">
-      <p>
-        category
-      </p>
-      <h3>
-        Title of the Notice
-      </h3>
-    </article>
-    <article class="notice-card">
-      <p>
-        category
-      </p>
-      <h3>
-        Title of the Notice
-      </h3>
-    </article>
-    <article class="notice-card">
-      <p>
-        category
-      </p>
-      <h3>
-        Title of the Notice
-      </h3>
-    </article>
-    <article class="notice-card">
-      <p>
-        category
-      </p>
-      <h3>
-        Title of the Notice
-      </h3>
-    </article>
-    <article class="notice-card">
-      <p>
-        category
-      </p>
-      <h3>
-        Title of the Notice
-      </h3>
-    </article>
-  </section>
-  <section class="notice-generator-container flex">
+  <ul class="notice-items-container flex">
+  </ul>
+  <section class="notice-generator-container">
     <h2>ADD NOTICE</h2>
-    <input type="text" class="form-control" placeholder="Enter Notice Title">
-    <select name="category" id="category" class="form-control">
-      <option value="" hidden selected>Select a notice category</option>
-      <option value="sports">Sports</option>
-      <option value="study">Study</option>
-      <option value="business">Business</option>
-      <option value="leisure">Leisure</option>
-      <option value="exercise">Exercise</option>  
-    </select>
+    <form class="flex">
+      <input type="text" name="title" class="form-control" placeholder="Enter Notice Title">
+      <input type="text" name="category" class="form-control" placeholder="Enter the category">
+      <button type="submit" class="form-control">Add Item</button>
+    </form>
   </section>
   <script src="./script.js"></script>
 </body>
