@@ -22,7 +22,6 @@ body{
   width: 80%;
   justify-content: space-between;
   gap: 2rem;
-  border: 1px solid black;
 }
 
 .notice-card{
