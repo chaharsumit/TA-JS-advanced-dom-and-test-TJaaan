@@ -8,7 +8,7 @@ Write the function in `index.js` file and also write the test in `index.test.js`
 
 1. Write a function named `getFullName` that accepts two input `firstName` and `lastName` and return the `fullName`
 
-2. Write a function named `isPalindrome` that accepts one input returns `true` or `false` based on wether the value passed is palindrome or not.
+2. Write a function named `isPalindrome` that accepts one input returns `true` or `false` based on whether the value passed is palindrome or not.
 
 3. Create 2 functions that calculate properties of a circle, using the definitions here.
 
