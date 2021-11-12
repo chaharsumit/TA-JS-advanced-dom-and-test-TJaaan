@@ -4,7 +4,7 @@
   "description": "TA-JS-advanced-dom-and-test-TJaaan",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll --coverage"
+    "test": "jest --passWithNoTests --watchAll --coverage"
   },
   "repository": {
     "type": "git",
