@@ -1,0 +1,23 @@
+{
+  "name": "TA-JS-advanced-dom-and-test-TJaaan",
+  "version": "1.0.0",
+  "description": "TA-JS-advanced-dom-and-test-TJaaan",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --passWithNoTests --watchAll --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaharsumit/TA-JS-advanced-dom-and-test-TJaaan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaharsumit/TA-JS-advanced-dom-and-test-TJaaan/issues"
+  },
+  "homepage": "https://github.com/chaharsumit/TA-JS-advanced-dom-and-test-TJaaan#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
